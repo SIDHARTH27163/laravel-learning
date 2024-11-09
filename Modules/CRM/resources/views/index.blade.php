@@ -21,6 +21,10 @@
 
        </div>
     </x-slot>
+    <div class="">
+     
+    <p>Module: {!! config('crm.name') !!}</p>
+    </div>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const themeToggle = document.getElementById('theme-toggle');
